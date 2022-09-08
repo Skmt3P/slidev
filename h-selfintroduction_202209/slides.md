@@ -1,385 +1,340 @@
 ---
-# try also 'default' to start simple
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
-class: 'text-center'
+theme: apple-basic
+exportFilename: 'Skmt3P Self Introduction'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 # show line numbers in code blocks
-lineNumbers: false
+lineNumbers: true
 # some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+  ## Skmt3P Self Introduction
 # persist drawings in exports and build
 drawings:
   persist: false
-# use UnoCSS (experimental)
-css: unocss
+colorSchema: 'dark'
+title: 'Skmt3P Self Introduction'
+layout: intro-image
+image: '/1-bg.jpg'
 ---
 
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
+<div class="absolute top-10">
+  <span class="font-700">
+    R.D.Sakamoto<twemoji-gorilla /> (Sep 8th, 2022)
   </span>
 </div>
 
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
+<div class="absolute bottom-10">
+<h1>地球の首都はTallinn, 日本は町田</h1>
+<p>HIKKY社 開発部門 自己紹介LT</p>
 </div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
+---
+title: 'title-intro'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: section
 ---
 
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+# 誰?
 
 ---
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
-
-### Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
+title: 'detail-intro'
+titleTemplate: '%s - Skmt3P Self Introduction'
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: '/gorinuma.png'
 ---
 
-# Code
+# R.D.Sakamoto
+## VR名義: ゴリ沼りう
 
-Use code snippets and get the highlighting directly![^1]
+* 30過ぎのWebフロントおじさん
+* スポーツジム・喫茶店・銭湯等に出没
+* 飽き性
+* 辛いものが好き。ただし食べると体調を壊す
+* オーロラを見たことあるマウントをとりがち
+* 🔥部屋チクチク言葉選手権初代王者(非公式)
+* 猫😸より犬🐶派
+* きのこの...山？🍄たけのこの里は好き！
+* 鍋に春菊を入れてくるタイプの人が苦手
 
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
+---
+title: 'title-job'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: section
+---
 
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
+# 何ができるの?
 
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
+---
+title: 'detail-job'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: image-right
+image: '/skmt3p.png'
+---
 
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
+## 小規模チーム管理とフロント全般
+
+* ただし器用貧乏
+* 10人以下のチーム管理
+* じゃばすくりぷと
+* HTMLとCSS
+* Firebase ﾁｮｯﾄﾜｶﾙ
+* CI ﾁｮｯﾄﾜｶﾙ
+* GA/GTM ﾁｮｯﾄﾜｶﾙ
+* Blockchain ﾁｮｯﾄﾜｶﾙ
+* Web3 ﾁｮｯﾄﾜｶﾙ
+* ﾁｷｭｳｼﾞﾝ ﾅﾆﾓﾜｶﾗﾅｲ
+* I don't understand foreign languages.
+
+---
+title: 'title-career'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: section
+---
+
+# キャリアは?
+
+---
+title: 'detail-career'
+titleTemplate: '%s - Skmt3P Self Introduction'
+---
+
+## 色々やってきました
+
+<div class="flex">
+  <div class="box w-1/2 whitespace-pre-wrap m-5">
+    <ol class="number-list list-none">
+      <li class="text">
+        学業 → 普通科高校からの大学では文学部
+      </li>
+      <li class="text">
+        バイト → 塾講師, 家系ラーメン他
+      </li>
+      <li class="text">
+        新卒 → SAPコンサルタント
+      </li>
+      <li class="text">
+        転職 → フロントエンドエンジニア
+      </li>
+      <li class="text">
+        数年前 → フリーランスとして独立
+      </li>
+      <li class="text">
+        色々やる → エンジニア, 講師, ライター他
+      </li>
+      <li class="text">
+        3年前 → エストニアに会社設立
+      </li>
+      <li class="text">
+        2年前 → エストニア-タリンにワーホリ移住
+      </li>
+      <li class="text">
+        1年前 → フィオさんのツイートからHIKKYへ
+      </li>
+      <li class="text">
+        今年 → フリーランスは引退
+      </li>
+      <li class="text">
+        今 → HIKKYでフロントエンドプレマネ
+      </li>
+      <li class="text">
+        最近 → 会議と資料作りとレビュー...
+      </li>
+      <li class="text">
+        将来 → 多分またエストニア住む
+      </li>
+    </ol>
+  </div>
+  <div class="box w-1/2">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d129707.39746548727!2d24.597816727727256!3d59.47179210809291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46929499df5616bf%3A0x400b36d18fc6270!2z44Ko44K544OI44OL44KiIOOCv-ODquODsw!5e0!3m2!1sja!2sjp!4v1662543415585!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+---
+title: 'title-game'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: section
+---
+
+# ゲームとかやる人？
+
+---
+title: 'detail-game'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: image-right
+image: '/carby.jpg'
+---
+
+## やる！好きな作品はこういうの！
+
+* Steam: MELTY BLOOD: TYPE LUMINA
+* アーケード: 北斗の拳 審判の双蒼星 拳豪列伝
+* アーケード: MELTY BLOOD シリーズ
+* アーケード: BLAZBLUE シリーズ
+* PS2: 三國無双シリーズ
+* 任天堂64: 大乱闘スマッシュブラザーズ
+* 任天堂64: 007 ゴールデンアイ
+* 任天堂64: マリオカート64
+* SFC: 星のカービィスーパーデラックス
+
+* Steamのメイドインアビスやりたい...
+
+---
+title: 'message-game'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: fact
+---
+
+<div class="box">
+  <span class="text-64px leading-none"> 2A>2B>2C>6CCC(jc)>JC>
+    J2C(dl)>J236A>5CCC>JAAA
+  </span>
+</div>
+
+こういう文字列見ると心が落ち着くよね
+
+---
+title: 'title-wotaku'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: section
+---
+
+# 本とか動画を嗜む？
+
+---
+title: 'detail-wotaku'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: image-right
+image: '/aria.jpg'
+---
+
+## 本は読む。映像は最近観てない
+
+* 技術書出したり同人誌に寄稿したことも
+* 技術書と楽典を読むことが多い
+* Kindle Unlimited会員
+* ビジネス書に影響されないタイプ
+* いしづかあつこ: 空よりも遠い場所
+* 五十嵐正邦: まったく最近の探偵ときたら
+* つきしあきひと: メイドインアビス
+* 天原: 異種族レビュアーズ
+* なをををををを: 不器用ビンボーダンス
+* 天野こずえ: ARIA
+* 原悠衣: きんいろモザイク
+* 結城 浩: 数学ガール
 
 <style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
+  div.my-14.mr-14 {
+    background-position: top !important;
+  }
+</style>
+
+---
+title: 'title-kasu'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: 3-images
+imageLeft: '/mattan.jpg'
+imageTopRight: '/kinmosa.jpg'
+imageBottomRight: '/girl.jpg'
+---
+
+<style>
+.ml-14.my-14,
+.mr-14.mt-14,
+.mr-14.mb-14 {
+  background-position: top !important;
 }
 </style>
 
 ---
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-
----
-class: px-20
+title: 'title-music'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: section
 ---
 
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
+# 音楽は？
 
 ---
-preload: false
+title: 'detail-music'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: image-right
+image: '/emeraldsword.jpg'
 ---
 
-# Animations
+## 👍昔は弾いてた。今はたまに聴く
 
-Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
+* 高校: クラシックギター部(アルトギター)
+* 大学: バンドでエレベとウッべ弾いてた
+* 北欧には森と湖とメタルしかない(偏見)
+* Rhapsody: Emerald Sword
+* Sonata Arctica: Wolf and Raven
+* Dragon Force: Symphony of the Night
+* Chick Corea: Spain
+* Mussorgsky, Modest Petrovich:Tableaux d'une exposition "Promenade"
+* 久石譲: 海の見える街
+* GYARI: 絶対にチョコミントを食べるアオイチャン
+* NYCのBlue noteには行ってきました
 
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }">
-  Slidev
-</div>
-```
+---
+title: 'title-kasu'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: section
+---
 
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-    />
+# 嗜好品は？
+
+---
+title: 'detail-kasu'
+titleTemplate: '%s - Skmt3P Self Introduction'
+---
+
+## 合法なものは嗜んでます
+
+<div class="flex">
+  <div class="box w-1/2 whitespace-pre-wrap m-5">
+    <ol class="number-list list-none">
+      <li class="text">
+        珈琲: 好き！苦いのがお好き。
+      </li>
+      <li class="text">
+        チョコ: 好き！苦いのがお好き。
+      </li>
+      <li class="text">
+        煙物: アークロイヤル。甘いのがお好き。
+      </li>
+      <li class="text">
+        ビール: 黒ビールが好き🍺
+      </li>
+      <li class="text">
+        ウイスキー: スコッチ(カリラ等)が好き🥃
+      </li>
+      <li class="text">
+        ラーメン: 好きだった...(最近は胃が...)
+      </li>
+      <li class="text">
+        ミュンヘンのオクトーバーフェストいった
+      </li>
+      <li class="text">
+        10年くらい通ってるバーが町田にある
+      </li>
+    </ol>
   </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
+  <div class="box w-1/2">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25975.648941559262!2d139.43956263498012!3d35.53008207848082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018feb314e04ee3%3A0xad9aefefa259282b!2z55S655Sw6aeF!5e0!3m2!1sja!2sjp!4v1662557822455!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
 
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
+---
+title: 'detail-tallinn'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: statement
 ---
 
-# LaTeX
-
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
-
-<br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
+# 世界の首都はTallinn
 
 ---
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
-
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
-
-
----
-layout: center
-class: text-center
+title: 'detail-machida'
+titleTemplate: '%s - Skmt3P Self Introduction'
+layout: statement
 ---
 
-# Learn More
-
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+# 日本の首都は町田
